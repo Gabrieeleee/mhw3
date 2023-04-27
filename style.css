@@ -1,0 +1,134 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+.choice-grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+
+
+
+.choice-grid div{
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   width: calc(32.5% - 20px);
+   
+   padding: 10px 10px 10px 10px;
+  
+  margin: 0px 0px 20px 0px;
+  border: 1px solid #dcdcdc;
+  background-color: #f4f4f4;
+}
+
+
+.choice-grid div img{
+    width: 100%;
+    
+}
+
+.question-name{
+    background-image: url('./images/1.jpg');
+    mask-repeat: no-repeat;
+    background-size: cover;
+    background-color:black;
+}
+
+
+section.risposta {
+    margin: 20px 0px;
+    padding: 20px;
+    display:flex;
+    border: 1px solid red;
+    background-color: gray;
+}
+
+.risposta p{
+    margin: 18px 0px;
+    //padding: 0px;
+}
+
+.risposta h1{
+    margin: 0px;
+}
+
+.bott{
+    background-color: #cecece;
+    width: 100%;
+    height: 50px;
+}
+
+.bott:hover{
+    background-color: #e0e0e0;
+}
+
+div.sfondoazzurro{
+    background-color:#cfe3ff;
+}
+
+.sfondogrigio{
+    opacity: 0.6;
+}
+@media (max-width: 700px) {
+    body,article, section.choice-grid{
+        width: 95%;
+    }
+
+    header div{
+        display: none;
+    }
+
+    .question-name h1{
+        font-size: 3em;
+    }
+
+  }
+
+  @media (max-width: 500px) {
+    .choice-grid div {
+        width: calc(49% - 20px) ;
+    }
+  }
+
+section.brano{
+    display: flex;
+    width: 700px;
+    border: 1px solid red;
+    margin: 20px 0px;
+    background-color: gray;
+}
+
+section.brano img{
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+    border: 1px solid red;
+}
+
+section.brano div{
+    margin: 20px 0px;
+}
+
+#inno{
+    margin: 20px 0px;
+}
+
+
+
+div.brano img{
+    width: 100px;
+}
+
+section.risposta div{
+    margin: 0px 20px;
+}
+section.risposta img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
